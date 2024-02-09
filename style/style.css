@@ -1,0 +1,174 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    
+    background-color: #0000;
+    position: relative;
+
+}
+
+body::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background-image: url(../Images/download.svg);
+    opacity: 1;
+    z-index: -11;
+}
+.mainBg{
+background-color: #00203f !important;
+}
+.fontColor{
+    color: rgb(255, 191, 0);
+font-family: 'Poppins', sans-serif;
+text-transform: uppercase;
+}
+
+.myBg{
+background-color: rgb(255, 191, 0);
+}
+.blueColor{
+    color: #102238 !important ;
+}
+main , section{
+    background-image: url(../Images/download.png);
+}
+section h1 {
+    font-size: 120px;
+    font-weight: 900;
+    color: #ffffff;
+}
+.blurEffect{
+    background: rgba(255, 255, 255, 0.044);
+    box-shadow: 0 4px 30px rgba(0, 0, 0,0.1);
+    backdrop-filter: blur(1px);
+}
+.blurEffectx{
+    background: #ffffff27;
+    box-shadow: 0 4px 30px rgba(0, 0, 0,0.1);
+    backdrop-filter: blur(3px);
+}
+
+input::placeholder{
+    color: rgba(41, 41, 41, 0.61) !important;
+    font-weight: 400;
+}
+.spinner {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 100px auto;
+    color: white !important;
+}
+
+  .double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+  }
+
+  .double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  @-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bounce {
+    0%, 100% { 
+      transform: scale(0.0);
+      -webkit-transform: scale(0.0);
+    } 50% { 
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+
+.boxBig{
+    width: 75% !important;
+    padding-left: 20px !important;
+}
+.boxBig input {
+    margin: 0px auto !important;
+}
+.edit button {
+    width: 75% !important;
+    margin: 20px auto !important;;
+    padding: 5px 20px !important;
+}
+.Line{
+    top: 50% !important;
+    left: 0px;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.Linex{
+    top: 10% !important;
+    left: 30%;
+    position: absolute;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    opacity: 0.5;
+}
+.Lines{
+    top: 20% !important;
+    left: 20%;
+    position: absolute;
+    opacity: 0.5;
+}
+}
+
+.divBottom{
+    background-color:#ffffff  ;
+    width: 75%;
+    height: 0.1px;
+
+
+
+}
+
+
+.Line{
+    top: 25% !important;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.Linex{
+    top: -10% !important;
+    left: 60%;
+    position: absolute;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    opacity: 0.5;
+}
+.Lines{
+    top: -50% !important;
+    left: -20%;
+    position: absolute;
+    opacity: 0.5;
+}

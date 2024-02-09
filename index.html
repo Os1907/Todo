@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Images/icon.png">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<!-- BootStrao Icon -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>TODO</title>
+</head>
+<body>
+<main class="bg-black vh-100">
+
+<section class="h-auto mt-0 bg-black overflow-hidden  py-4">
+    <div class="mainTitle w-100 text-center mb-4 position-relative  ">
+        <h1>  ToDo App  </h1>
+            <img src="./Images/line.png" alt="" class="position-absolute w-100 Line">       
+            <img src="./Images/line.png" alt="" class="position-absolute w-25 Linex">   
+            <img src="./Images/line.png" alt="" class="position-absolute w-100 Lines">       
+        <p class="  fs-4 fw-semibold fontColor mt-3 ">~ Save <span class="fw-bolder">your</span> tasks ~</p>
+    </div>
+    <div class="rounded-4 d-flex justify-content-center align-items-center flex-column w-50 mx-auto blurEffect p-4 boxBig" >
+        <div class="headBox w-100 d-flex justify-content-center my-3">
+            <div class="row w-100   ">
+                <div class="col-md-12 d-grid align-items-center mx-auto ">
+                    <input type="text" name="" placeholder="Input your Task" class="form-control w-100 rounded-4 border-0 blueColor" id="taskValue">
+                </div>
+                <div class="col-md-6 edit mx-auto d-grid align-items-center my-3 ">
+                    <button  class="  text-black  mx-auto  border-0  px-5 py-2 text-black rounded-4  fw-bolder " id="addTask">Add Task</button>
+                </div>
+            </div>
+        </div>
+        <div class="itemAdded position-relative w-75  mt-2" id="displayDATA">
+            <div class="spinner position-relative " >
+                <div class="double-bounce1 "></div>
+                <div class="double-bounce2"></div>
+            </div>
+        <div class="containerBox w-100 mainBg rounded-4  d-flex justify-content-center align-items-center mt-2">
+            <div class="Task-name w-50 rounded-4 py-2 ">
+                </div>
+                <div class="icons">
+                </div>
+        </div>
+        </div>
+        
+        
+        
+    </div>
+    
+</section>
+</main>
+
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
